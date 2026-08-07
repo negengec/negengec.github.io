@@ -1,12 +1,17 @@
 # Portfolio refresh notes
 
+## Approval workflow
+
+- Before making any code, content, configuration, or other repository changes, summarize the planned actions and wait for the user's explicit approval.
+- Do not begin implementation until that approval has been received.
+
 ## Approved repository changes
 
 - Ignore PDF files so personal source documents, including the local CV, are never committed or deployed.
 - Replace the placeholder homepage with a minimal, text-led professional profile.
-- Use CV-derived public email, LinkedIn, GitHub, and a concise experience summary. Use the approved headline: “Machine Learning Engineer · Applied Scientist · Data Scientist.”
+- Use CV-derived public email, LinkedIn, GitHub, Google Scholar, and a concise experience summary. Present these contact paths as clickable, accessible icons in a horizontal row below the profile portrait. Use the approved headline: “Machine Learning Engineer · Applied Scientist · Data Scientist.”
 - Exclude the phone number, CV download, project repository links, and live project links. Include the full experience and education histories, plus the CV-listed publications. Add publication URLs only when they are present in the CV.
-- Use `assets/images/profile.jpg` as the public profile portrait.
+- Use `assets/images/profile.jpg` as the public profile portrait. Include complete author lists for all listed publications, verified from their publication records.
 - Use these focus areas: Machine Learning, Routing & Maps, Geospatial Analysis, Computer Vision, Forecasting, and Data Platforms.
 
 ## Site context
