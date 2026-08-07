@@ -1,1 +1,339 @@
-Hello world..
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Necip Enes Gengec — Data Scientist, AI/ML Engineer, and Computer Vision Researcher.">
+    <title>Necip Enes Gengec — AI/ML Engineer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+    <style>
+      :root {
+        --ink: #f2ecf8;
+        --muted: #b9adca;
+        --line: #3a3046;
+        --paper: #17131d;
+        --accent: #c6a0ff;
+      }
+
+      * { box-sizing: border-box; }
+
+      html { scroll-behavior: smooth; }
+
+      body {
+        margin: 0;
+        background: var(--paper);
+        color: var(--ink);
+        font-family: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+        font-size: 15px;
+        line-height: 1.7;
+      }
+
+      a {
+        color: inherit;
+        text-decoration-color: #806ba1;
+        text-underline-offset: 0.2em;
+      }
+
+      a:hover, a:focus-visible {
+        color: var(--accent);
+        text-decoration-color: currentColor;
+      }
+
+      .page {
+        width: min(100% - 40px, 860px);
+        margin: 0 auto;
+        padding: 56px 0 48px;
+      }
+
+      header {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        gap: 32px;
+        padding-bottom: 48px;
+      }
+
+      h1, h2, p { margin: 0; }
+
+      h1 {
+        max-width: 540px;
+        font-size: clamp(2.2rem, 7vw, 4.25rem);
+        line-height: 1.02;
+        letter-spacing: -0.065em;
+        font-weight: 700;
+      }
+
+      .role {
+        margin-top: 18px;
+        color: var(--muted);
+        font-size: 1rem;
+      }
+
+      .portrait {
+        flex: 0 0 auto;
+        width: 144px;
+        height: 144px;
+        border-radius: 50%;
+        object-fit: cover;
+        object-position: center 35%;
+      }
+
+      .intro {
+        max-width: 720px;
+        font-size: clamp(1.2rem, 3vw, 1.5rem);
+        line-height: 1.45;
+        letter-spacing: -0.025em;
+      }
+
+      section { padding-top: 52px; }
+
+      h2 {
+        margin-bottom: 18px;
+        color: var(--muted);
+        font-size: 0.78rem;
+        font-weight: 700;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+      }
+
+      .experience {
+        border-top: 1px solid var(--line);
+      }
+
+      .experience article {
+        display: grid;
+        grid-template-columns: 160px 1fr;
+        gap: 24px;
+        padding: 24px 0;
+        border-bottom: 1px solid var(--line);
+      }
+
+      .period { color: var(--muted); font-size: 0.92rem; }
+      .position { font-weight: 700; }
+      .company { color: var(--muted); }
+      .summary { margin-top: 8px; }
+
+      .education, .publications {
+        border-top: 1px solid var(--line);
+      }
+
+      .education article, .publications li {
+        padding: 22px 0;
+        border-bottom: 1px solid var(--line);
+      }
+
+      .degree { font-weight: 700; }
+      .institution, .thesis, .publication-meta { color: var(--muted); }
+      .thesis { margin-top: 4px; }
+
+      .publications {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        counter-reset: publications;
+      }
+
+      .publications li {
+        display: grid;
+        grid-template-columns: 34px 1fr;
+        gap: 12px;
+        counter-increment: publications;
+      }
+
+      .publications li::before {
+        content: "0" counter(publications);
+        color: var(--muted);
+        font-size: 0.78rem;
+        font-weight: 700;
+        letter-spacing: 0.06em;
+      }
+
+      .publication-title { font-weight: 700; }
+      .publication-meta { margin-top: 4px; }
+
+      .skills {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px 18px;
+        max-width: 620px;
+      }
+
+      .skills span { white-space: nowrap; }
+
+      footer {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px 20px;
+        margin-top: 56px;
+        padding-top: 22px;
+        border-top: 1px solid var(--line);
+      }
+
+      footer a { font-weight: 600; }
+
+      @media (max-width: 560px) {
+        .page { width: min(100% - 32px, 860px); padding-top: 36px; }
+        header { gap: 18px; padding-bottom: 36px; }
+        .portrait { width: 104px; height: 104px; }
+        .experience article { grid-template-columns: 1fr; gap: 4px; }
+        section { padding-top: 42px; }
+      }
+    </style>
+  </head>
+  <body>
+    <main class="page">
+      <header>
+        <div>
+          <h1>Necip Enes Gengec, Ph.D.</h1>
+          <p class="role">Machine Learning Engineer · Applied Scientist · Data Scientist</p>
+        </div>
+        <img class="portrait" src="assets/images/profile.jpg" alt="Necip Enes Gengec">
+      </header>
+
+      <p class="intro">
+        I build machine-learning systems for real-world operations, with experience in routing,
+        geospatial data, forecasting, and computer vision.
+      </p>
+
+      <section aria-labelledby="experience-heading">
+        <h2 id="experience-heading">Experience</h2>
+        <div class="experience">
+          <article>
+            <p class="period">Sep 2025 — Present</p>
+            <div>
+              <p class="position">Staff Machine Learning Engineer <span class="company">at Getir</span></p>
+              <p class="summary">Leading R&amp;D and technical direction for machine-learning work in routing, map services, and delivery operations.</p>
+            </div>
+          </article>
+          <article>
+            <p class="period">Sep 2023 — Aug 2025</p>
+            <div>
+              <p class="position">Lead Machine Learning Engineer <span class="company">at Getir</span></p>
+              <p class="summary">Led applied ML initiatives spanning ETA prediction, demand forecasting, fraud detection, driving-risk scoring, and spatial data systems.</p>
+            </div>
+          </article>
+          <article>
+            <p class="period">Feb 2022 — Sep 2023</p>
+            <div>
+              <p class="position">Senior Data Scientist <span class="company">at Getir</span></p>
+              <p class="summary">Led data science work for Getir Drive, including vehicle telemetry analysis, map matching, and production data pipelines.</p>
+            </div>
+          </article>
+          <article>
+            <p class="period">Aug 2020 — Feb 2022</p>
+            <div>
+              <p class="position">Lead Data Scientist <span class="company">at HERE Technologies</span></p>
+              <p class="summary">Delivered internal analytics and dashboards, and advised engineering teams on efficient data-pipeline design.</p>
+            </div>
+          </article>
+          <article>
+            <p class="period">May 2018 — Aug 2020</p>
+            <div>
+              <p class="position">Senior Product Analyst <span class="company">at HERE Technologies</span></p>
+              <p class="summary">Managed map-content roadmaps across Turkey, North Africa, and Pakistan, supporting geospatial customers and API users.</p>
+            </div>
+          </article>
+          <article>
+            <p class="period">Aug 2016 — May 2018</p>
+            <div>
+              <p class="position">Project Lead <span class="company">at HERE Technologies</span></p>
+              <p class="summary">Managed GPS-based road-network update projects across the Middle East and built map-matching workflows.</p>
+            </div>
+          </article>
+          <article>
+            <p class="period">Jan 2015 — Aug 2016</p>
+            <div>
+              <p class="position">Team Lead <span class="company">at HERE Technologies</span></p>
+              <p class="summary">Supervised GIS teams and developed geospatial infrastructure for POI and road-network updates.</p>
+            </div>
+          </article>
+          <article>
+            <p class="period">Mar 2013 — Apr 2014</p>
+            <div>
+              <p class="position">Site Research Statistics Analyst <span class="company">at Tesco Kipa</span></p>
+              <p class="summary">Analyzed retail performance and produced geospatial customer-segmentation reporting.</p>
+            </div>
+          </article>
+          <article>
+            <p class="period">Jul 2011 — Mar 2013</p>
+            <div>
+              <p class="position">Mapping &amp; Field Project Specialist <span class="company">at Sampaş</span></p>
+              <p class="summary">Performed field data collection and QA/QC for smart-city projects.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section aria-labelledby="education-heading">
+        <h2 id="education-heading">Education</h2>
+        <div class="education">
+          <article>
+            <p class="degree">Ph.D. in Geomatics Engineering <span class="institution">· Istanbul Technical University</span></p>
+            <p class="period">2017 — 2024 · Istanbul, Turkey</p>
+            <p class="thesis">Thesis: Applied Deep Learning and Computer Vision in Multi-modal Earth Observation Data</p>
+          </article>
+          <article>
+            <p class="degree">M.Sc. in Geomatics Engineering <span class="institution">· Istanbul Technical University</span></p>
+            <p class="period">2007 — 2010 · Istanbul, Turkey</p>
+            <p class="thesis">Thesis: Statistical Analysis of Engineering Surveys</p>
+          </article>
+          <article>
+            <p class="degree">B.Sc. in Geodesy and Photogrammetry Engineering <span class="institution">· Istanbul Technical University</span></p>
+            <p class="period">2003 — 2007 · Istanbul, Turkey</p>
+            <p class="thesis">Thesis: Numerical Analysis and Design of Road Alignments</p>
+          </article>
+        </div>
+      </section>
+
+      <section aria-labelledby="skills-heading">
+        <h2 id="skills-heading">Focus areas</h2>
+        <div class="skills" aria-label="Technical focus areas">
+          <span>Machine Learning</span>
+          <span>Routing &amp; Maps</span>
+          <span>Geospatial Analysis</span>
+          <span>Computer Vision</span>
+          <span>Forecasting</span>
+          <span>Data Platforms</span>
+        </div>
+      </section>
+
+      <section aria-labelledby="publications-heading">
+        <h2 id="publications-heading">Publications</h2>
+        <ol class="publications">
+          <li>
+            <div>
+              <p class="publication-title">Mapping Antarctica through text and location-based social media analysis</p>
+              <p class="publication-meta">Gengeç, N.E. (2024). GEOMATIK, 9 pp. Co-authored with A.G. Gülnerman, F. Karakuş, H. Karaman, H.H. Yavaşoğlu, and B. Özsoy.</p>
+            </div>
+          </li>
+          <li>
+            <div>
+              <p class="publication-title">AI Powered Road Network Prediction with Fused Low-Resolution Satellite Imagery and GPS Trajectory</p>
+              <p class="publication-meta">Gengeç, N.E. (2023). Springer Earth Science Informatics.</p>
+            </div>
+          </li>
+          <li>
+            <div>
+              <p class="publication-title">Performance Evaluation of GPS Trajectory Rasterization Methods</p>
+              <p class="publication-meta">Gengeç, N.E. (2021). ICCSA 2021, Springer LNCS 12949.</p>
+            </div>
+          </li>
+          <li>
+            <div>
+              <p class="publication-title">Review Of Public Tweets Over Turkey Within A Pre-Determined Time</p>
+              <p class="publication-meta">Gengeç, N.E. (2016). 1st International Conference on Smart Data and Smart Cities, Croatia.</p>
+            </div>
+          </li>
+        </ol>
+      </section>
+
+      <footer aria-label="Contact links">
+        <a href="mailto:necipenesgengec@gmail.com">Email</a>
+        <a href="https://www.linkedin.com/in/negengec/" rel="me">LinkedIn</a>
+        <a href="https://github.com/nagellette" rel="me">GitHub</a>
+      </footer>
+    </main>
+  </body>
+</html>
