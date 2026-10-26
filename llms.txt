@@ -1,0 +1,38 @@
+# Necip Enes Gengec, Ph.D.
+
+> Machine Learning Engineer · Applied Scientist · Data Scientist. Necip Enes Gengec (also written Gengeç) builds machine-learning systems for real-world operations, with experience in routing, geospatial data, forecasting, and computer vision. Necip is currently a Staff Machine Learning Engineer at Getir and holds a Ph.D. in Geomatics Engineering from Istanbul Technical University.
+
+Focus areas: Machine Learning, Routing & Maps, Geospatial Analysis, Computer Vision, Forecasting, Data Platforms.
+
+## Profile and contact
+
+- [Personal website](https://negengec.github.io/): professional profile, experience, education, and publications
+- [LinkedIn](https://www.linkedin.com/in/negengec/)
+- [GitHub](https://github.com/nagellette)
+- [Google Scholar](https://scholar.google.com/citations?user=Br4hAYcAAAAJ)
+- Email: necipenesgengec@gmail.com
+
+## Experience
+
+- Staff Machine Learning Engineer, Getir (Sep 2025 – present): leading R&D and technical direction for machine-learning work in routing, map services, and delivery operations.
+- Lead Machine Learning Engineer, Getir (Sep 2023 – Aug 2025): led applied ML initiatives spanning ETA prediction, demand forecasting, fraud detection, driving-risk scoring, and spatial data systems.
+- Senior Data Scientist, Getir (Feb 2022 – Sep 2023): led data science work for Getir Drive, including vehicle telemetry analysis, map matching, and production data pipelines.
+- Lead Data Scientist, HERE Technologies (Aug 2020 – Feb 2022): delivered internal analytics and dashboards, and advised engineering teams on efficient data-pipeline design.
+- Senior Product Analyst, HERE Technologies (May 2018 – Aug 2020): managed map-content roadmaps across Turkey, North Africa, and Pakistan.
+- Project Lead, HERE Technologies (Aug 2016 – May 2018): managed GPS-based road-network update projects across the Middle East and built map-matching workflows.
+- Team Lead, HERE Technologies (Jan 2015 – Aug 2016): supervised GIS teams and developed geospatial infrastructure for POI and road-network updates.
+- Site Research Statistics Analyst, Tesco Kipa (Mar 2013 – Apr 2014): retail performance analysis and geospatial customer segmentation.
+- Mapping & Field Project Specialist, Sampaş (Jul 2011 – Mar 2013): field data collection and QA/QC for smart-city projects.
+
+## Education
+
+- Ph.D. in Geomatics Engineering, Istanbul Technical University (2017 – 2024). Thesis: Applied Deep Learning and Computer Vision in Multi-modal Earth Observation Data.
+- M.Sc. in Geomatics Engineering, Istanbul Technical University (2007 – 2010). Thesis: Statistical Analysis of Engineering Surveys.
+- B.Sc. in Geodesy and Photogrammetry Engineering, Istanbul Technical University (2003 – 2007). Thesis: Numerical Analysis and Design of Road Alignments.
+
+## Publications
+
+- Gülnerman Gengeç, A.G., Karakuş, F., Gengeç, N.E., Karaman, H., Yavaşoğlu, H.H., & Özsoy, B. (2024). Mapping Antarctica through text and location-based social media analysis. GEOMATIK, 9(2), 175–184.
+- Gengeç, N.E., Tarı, E., & Bağcı, U. (2024). AI Powered Road Network Prediction with Fused Low-Resolution Satellite Imagery and GPS Trajectory. Earth Science Informatics, 17(2), 1013–1029.
+- Gengeç, N.E., & Tarı, E. (2021). Performance Evaluation of GPS Trajectory Rasterization Methods. ICCSA 2021, Springer LNCS 12949, 3–17.
+- Gülnerman, A.G., Gengeç, N.E., & Karaman, H. (2016). Review Of Public Tweets Over Turkey Within A Pre-Determined Time. ISPRS Annals of the Photogrammetry, Remote Sensing and Spatial Information Sciences, IV-4/W1, 153–159.
